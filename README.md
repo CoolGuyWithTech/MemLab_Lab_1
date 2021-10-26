@@ -27,12 +27,12 @@ Next, i memdump the mspaint memory, and got a dmp file. I was frustrated and did
 
 
 
-![[mspaint memory.png]]
+![mspaint memory.png](https://github.com/CoolGuyWithTech/MemLab_Lab_1/blob/main/mspaint%20memory.PNG?raw=true)
 
 And i try rotating it and it didn't work so i try flipping it and the flag was there
 
 
-![[mspaint memory (2).png]]
+![Flip_Image](https://github.com/CoolGuyWithTech/MemLab_Lab_1/blob/main/mspaint%20memory%20(2).PNG?raw=true)
 
 `flag{Good_Boy_good_girl}`
 
@@ -45,7 +45,7 @@ Next, i use dumpfiles and specific the physical memory location with -Q and the 
 
 I rename the file to important.rar and pass it through 7z. 
 
-![[ntlm.png]]
+![ntlm.png](https://github.com/CoolGuyWithTech/MemLab_Lab_1/blob/main/ntlm.PNG)
 
 and we need Alissa NTML hash to unzip the file and i use hashdump and dump Alissa password. We only need the second part of the hash since the first part is LM and the hash also is needed to be uppercase
 
